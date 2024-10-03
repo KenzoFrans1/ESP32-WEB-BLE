@@ -59,7 +59,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 
   // Create the BLE Device
-  BLEDevice::init("ESP32_FRANS_Kenzo");
+  BLEDevice::init("ESP32_Frans_Kenzo");
 
   // Create the BLE Server
   pServer = BLEDevice::createServer();
